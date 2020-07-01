@@ -1,0 +1,42 @@
+@media all and (max-width: 1000px) {
+  .header-right{
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .promo-list h2{
+    font-size: 20px;
+  }
+  li {
+  font-size:10px;
+  }
+  .btn-wrapper p {
+    font-size:8px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header-right{
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+  .promo-list h2{
+    font-size: 15px;
+  }
+  li {
+  font-size:8px;
+  }
+  .btn-wrapper p {
+    font-size:5px;
+  }
+}  
