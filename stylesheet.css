@@ -25,7 +25,7 @@ a {
 header {
   height: 80px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -69,10 +69,9 @@ header {
 }
 .menu-icon{
   color:black;
-  font-size:25px;
-  float:lef;
+  float:left;
   display:none;
-  padding: 20px 0;
+
 }
 .container {
   max-width: 100%;
@@ -93,7 +92,7 @@ header {
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  font-weight:NORMA;
+  font-weight:bold;
 }
 .promo-list h2 {
   opacity: 1;
@@ -141,5 +140,9 @@ li {
   color:#00BFFF;
   font-weight:bold;
   
+
+
+
+
 /* Write your code below */
 
