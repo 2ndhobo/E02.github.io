@@ -1,0 +1,145 @@
+/* Write your code at the bottom */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial";
+}
+
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  width: 124px;
+  margin-top: 25px;
+  margin-right:10px;
+}
+
+.header-left {
+  float: left;
+}
+.header-right a{
+  text-align: right;
+  line-height: 80px; 
+  margin:0px 30px;
+  color: black;
+  font-weight:bold;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+.login a{
+  line-height: 80px;
+  font-weight:bold;
+  color:#00BFFF;
+  float:right;
+  display:block;
+  margin-right:40px;
+}
+.fa {
+  margin-right: 5px;
+}
+.header-right a:hover {
+  color: #00BFFF;
+}
+.login a:hover {
+  background-color: rgb(176,196,222, 0.9);
+
+}
+.menu-icon{
+  color:black;
+  font-size:25px;
+  float:lef;
+  display:none;
+  padding: 20px 0;
+}
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://i.ibb.co/wMxQVhg/big-idea-2-banner-adobe-stock-0-1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: Left;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight:NORMA;
+}
+.promo-list h2 {
+  opacity: 1;
+  font-size: 30px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight:normal;
+}
+ul{
+  list-style-type:circle;
+  margin-left: 22px;
+}
+li {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size:15px;
+}
+
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
+}
+.signup {
+  background-color: rgba(0,191,255, 0.9);
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-wrapper p {
+  font-size:12PX;
+  margin: 10px 0;
+}
+.btn-wrapper span {
+  color:#00BFFF;
+  font-weight:bold;
+  
+/* Write your code below */
+
